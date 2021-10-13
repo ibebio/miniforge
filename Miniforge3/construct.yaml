@@ -28,7 +28,7 @@ specs:
 {% if name.startswith("Mambaforge") %}
   - mamba 0.16.0
   - singularity 3.7.1
-  - snakemake 6.9.1
+  - snakemake-minimal 6.9.1
 {% endif %}
   - conda {{ version.split("-")[0] }}
 
